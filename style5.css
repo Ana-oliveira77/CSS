@@ -1,0 +1,18 @@
+.page-wrapper {
+    position: relative; /* Define como referência para posicionamento */
+  }
+  
+  .explanation {
+    width: 60%;
+    margin-right: 35%; /* Espaço à direita */
+    border-right: 1px solid #1f295c; /* Borda direita */
+    padding-right: 2%; /* Espaçamento interno à direita */
+  }
+  
+  .design-menu { /* Supondo que esse seja o seletor do menu de designs */
+    position: absolute;
+    top: 560px; /* Posição a partir do topo da página */
+    left: 62%; /* Começa após o .explanation */
+    padding: 0 2%; /* Espaçamento interno horizontal para centralizar */
+  }
+  
