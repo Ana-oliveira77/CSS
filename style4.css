@@ -1,0 +1,105 @@
+/* Estilos gerais */
+body {
+    font-family: sans-serif;
+    background-color: #d9e6f2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.page-wrapper {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+    background: #f5faff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: #1f295c;
+}
+
+h2 {
+    font-size: 1.4rem;
+    color: #1f295c;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #1f295c;
+}
+
+/* Cabeçalho */
+header {
+    background: #1f295c;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 1em;
+    color: white;
+}
+
+/* Seção principal */
+.explanation {
+    width: 60%;
+    margin-right: 35%;
+    padding-right: 2%;
+    border-right: 1px solid #1f295c;
+}
+
+.explanation p {
+    line-height: 1.5;
+}
+
+/* Menu lateral */
+.sidebar {
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    width: 30%;
+    text-align: center;
+    padding: 2%;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 1em;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Rodapé */
+footer {
+    background: #1f295c;
+    color: white;
+    padding: 20px;
+    margin-top: 4%;
+    text-align: center;
+}
+
+footer a {
+    display: inline-block;
+    border: 2px solid white;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+/* Abreviações */
+abbr {
+    font-variant: small-caps;
+}
